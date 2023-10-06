@@ -1,0 +1,47 @@
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);;
+    z-index: 77;
+}
+.cardIcon {
+    font-size: 25px;
+}
+
+.card span {
+    position: absolute;
+    padding: 4px;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+
+.cartItem {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    z-index: 88;
+}
+
+.cardhide {
+    display: none;
+}
