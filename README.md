@@ -1,8 +1,35 @@
-# React + Vite
+# Food-Shop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend application for a Food-Shop app built with React.js, Tailwind CSS, and JavaScript. The app allows users to browse various kinds of fast food items, add them to the cart, and view details about the cart and prices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse various kinds of fast food items.
+- Add items to the cart.
+- View details about the cart and prices.
+
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- JavaScript
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ajor-Saha/Food-Delivery-App
+
+```bash
+cd Food-Delivery-App
+```
+
+```
+npm install
+```
+```
+npm run dev
+```
